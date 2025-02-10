@@ -42,7 +42,7 @@ h3 > span {
     display: none;
 }
 
-.Ricetta :first-child {
+.Ricetta .Img {
     width: 100%;
 }
 
@@ -74,29 +74,53 @@ h3 > span {
 /** Media Query **/
 
 /* Tablet */
-@media screen and (min-width:768px) {
+@media screen and (min-width:768px) and (max-width:992px){
+    /* header */
     header > h1 {
         text-align: left;
     }
     h3 > span {
         display: inline;
     }
-    
+
+    /* main */
     main {
         padding: 60px 60px;
     }
+    /* lista */
+    .Esecuzione > ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .Esecuzione ul > li {
+        width: 30%;
+    }
+    /* /lista */
+
 }
 
 /* Desktop */
 @media screen and (min-width:992px) {
+    /* header */
     header > h1 {
         text-align: left;
     }
     h3 > span {
         display: inline;
     }
-    
+
+    /* main */
     main {
         padding: 50px 250px;
+    }
+    .Ricetta {
+        display: flex;
+    }
+    .Esecuzione > ul {
+        display: flex;
+        gap: 10px;
     }
 }
