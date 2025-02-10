@@ -42,7 +42,7 @@ h3 > span {
     display: none;
 }
 
-.Ricetta .Img {
+.Img {
     width: 100%;
     max-width: 1000px;
 }
@@ -73,10 +73,22 @@ h3 > span {
     font-weight: bold;
 } 
 
-
-
-
-
+.banner {
+    width: 100%;
+    max-width: 1000px;
+    padding-bottom: 20px;
+    display: none;
+}
+hr {
+    width: 20%;
+    border: 1px solid #ff9614;
+}
+.Img-2 {
+    padding: 15px 50px;
+}
+.Story > p {
+    font-size: small;
+}
 
 
 /*Social*/
@@ -159,6 +171,10 @@ h3 > span {
     }
     /* /parte 1 */
 
+    /* parte 2 */
+    .banner {
+        display: block;
+    }
 }
 
 /* Desktop */
@@ -211,5 +227,7 @@ h3 > span {
         font-size: x-small;
     }
     /* /parte 1 */
-
+    .banner {
+        display: block;
+    }
 }
