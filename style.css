@@ -55,6 +55,10 @@ h3 > span {
     h3 > span {
         display: inline;
     }
+    
+    main {
+        padding: 60px 60px;
+    }
 }
 
 /* Desktop */
@@ -64,5 +68,9 @@ h3 > span {
     }
     h3 > span {
         display: inline;
+    }
+    
+    main {
+        padding: 50px 250px;
     }
 }
