@@ -73,6 +73,41 @@ h3 > span {
     font-weight: bold;
 } 
 
+
+
+
+
+
+
+/*Social*/
+.Social {
+    display: flex;
+    gap: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.button {
+    font-size: xx-small;
+    padding: 7px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+.fa-facebook {
+    color: #1a77f3;
+}
+.fa-twitter {
+    color: #009eff;
+}.fa-instagram {
+    color: #dc3da3;
+}.fa-pinterest {
+    color: #e62222;
+}.fa-youtube {
+    color: #e62222;
+}
+
+/* /Social*/
+
 /** Media Query **/
 
 /* Tablet */
