@@ -92,7 +92,7 @@ h3 > span {
     main {
         padding: 60px 60px;
     }
-    /* lista */
+    /* parte 1 */
     .Esecuzione > ul {
         list-style: none;
         display: flex;
@@ -104,7 +104,7 @@ h3 > span {
         width: 30%;
         font-size: small;
     }
-    /* /lista */
+    /* /parte 1 */
 
 }
 
@@ -123,6 +123,7 @@ h3 > span {
     main {
         padding: 50px 250px;
     }
+    /* parte 1 */
     .Ricetta {
         display: flex;
     }
@@ -143,4 +144,6 @@ h3 > span {
     .Esecuzione ul > li {
         font-size: small;
     }
+    /* /parte 1 */
+
 }
