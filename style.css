@@ -45,6 +45,32 @@ h3 > span {
 .Ricetta :first-child {
     width: 100%;
 }
+
+.Esecuzione {
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.Esecuzione > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.Esecuzione ul > li {
+    font-size: x-small;
+}
+.Esecuzione ul :last-child {
+    font-weight: bold;
+}
+.Esecuzione ul :last-child > span {
+    font-weight: normal;
+}
+.Esecuzione ul li > span {
+    font-weight: bold;
+} 
+
 /** Media Query **/
 
 /* Tablet */
