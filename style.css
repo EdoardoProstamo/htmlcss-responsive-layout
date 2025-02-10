@@ -41,6 +41,10 @@ main {
 h3 > span {
     display: none;
 }
+
+.Ricetta :first-child {
+    width: 100%;
+}
 /** Media Query **/
 
 /* Tablet */
