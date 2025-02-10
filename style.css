@@ -175,6 +175,17 @@ hr {
     .banner {
         display: block;
     }
+    .Story > p {
+        display: inline;
+    }
+    .Img-2 {
+        width: 20%;
+        float: left;
+        padding: 0px;
+    }
+    .Img-2 > .Img {
+        padding-right: 10px;
+    }
 }
 
 /* Desktop */
