@@ -90,6 +90,31 @@ hr {
     font-size: small;
 }
 
+footer {
+    background-color: #7c69a4;
+}
+footer > div, a {
+    color: #ffffff;
+    font-size: small;
+}
+.bottom-text {
+    padding: 20px;
+}
+.copyright {
+    text-align: center;
+}
+.Address {
+    font-size: x-small;
+    text-align: center;
+}
+.Final {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Final > li {
+    width: 25%;
+}
 
 /*Social*/
 .Social {
